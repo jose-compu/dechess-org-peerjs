@@ -10,6 +10,6 @@
     "start": "peerjs-server-vercel"
   },
   "dependencies": {
-    "peerjs-server-vercel": "1.0.0"
+    "peerjs-server-vercel": "github:jose-compu/peerjs-server-vercel#v1.0.1"
   }
 }
