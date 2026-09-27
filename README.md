@@ -1,0 +1,19 @@
+# dechess-org-peerjs
+
+Live PeerJS signaling server for dechess. The runtime is the published [`peerjs-server-vercel`](https://www.npmjs.com/package/peerjs-server-vercel) package.
+
+Production URL: `https://dechess-org-peerjs.vercel.app`
+
+Signaling URL: `wss://dechess-org-peerjs.vercel.app/peerjs?key=peerjs`
+
+This deployment uses the Vercel Hobby plan: Fluid compute, one Node function capped at 300 seconds, and the free Upstash Redis database. Postgres, Blob, Cron, and Queues are not used.
+
+```js
+const peer = new Peer({
+  host: 'dechess-org-peerjs.vercel.app',
+  port: 443,
+  path: '/',
+  secure: true,
+  key: 'peerjs'
+});
+```

@@ -1,0 +1,15 @@
+{
+  "name": "dechess-org-peerjs",
+  "private": true,
+  "description": "Live PeerJS signaling server for dechess, deployed on the Vercel Hobby plan.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "peerjs-server-vercel"
+  },
+  "dependencies": {
+    "peerjs-server-vercel": "1.0.0"
+  }
+}
