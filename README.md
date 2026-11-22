@@ -1,6 +1,6 @@
 # dechess-org-peerjs
 
-Live PeerJS signaling server for dechess. The runtime is [`peerjs-server-vercel`](https://github.com/jose-compu/peerjs-server-vercel) 1.0.4, commit `16f1fb5`.
+Live PeerJS signaling server for dechess. The runtime is [`peerjs-server-vercel`](https://github.com/jose-compu/peerjs-server-vercel) `v1.0.4`.
 
 Production URL: `https://dechess-org-peerjs.vercel.app`
 

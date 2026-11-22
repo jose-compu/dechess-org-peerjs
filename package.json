@@ -10,6 +10,6 @@
     "start": "peerjs-server-vercel"
   },
   "dependencies": {
-    "peerjs-server-vercel": "https://github.com/jose-compu/peerjs-server-vercel/archive/16f1fb5ede1358374f178ce20784270f981da4b0.tar.gz"
+    "peerjs-server-vercel": "https://github.com/jose-compu/peerjs-server-vercel/archive/refs/tags/v1.0.4.tar.gz"
   }
 }
